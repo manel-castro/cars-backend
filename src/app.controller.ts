@@ -1,4 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
+import { Query, Resolver } from '@nestjs/graphql';
 import { AppService } from './app.service';
 
 @Controller()
